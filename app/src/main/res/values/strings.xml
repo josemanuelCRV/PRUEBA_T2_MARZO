@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yep</string>
+    <string name="title_login">YEP</string>
+    <string name="subtitle_login">DO I KNOW YOU?</string>
+    <string name="username_hint">username</string>
+    <string name="pass_hint">password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="label_sign">have an account? SIGN UP here!</string>
+    <string name="action_a">action_a</string>
+    <string name="action_b">action_b</string>
+</resources>

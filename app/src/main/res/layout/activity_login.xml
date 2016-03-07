@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/color_bg_login">
+
+    <TextView
+        android:text="@string/title_login"
+        android:id="@+id/title_login"
+        style="@style/Title_Login_Style" />
+
+    <TextView
+        android:text="@string/subtitle_login"
+        android:id="@+id/subtitle_login"
+        style="@style/Subtitle_Login_Style" />
+
+    <TextView
+        android:text="@string/label_sign"
+        android:id="@+id/label_signup"
+        style="@style/Label_Sign_Style" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        style="@style/LinearLayout_Style">
+
+        <EditText
+            android:id="@+id/userField"
+            android:hint="@string/username_hint"
+            style="@style/UserField_Style" />
+
+        <EditText
+            android:id="@+id/passField"
+            android:hint="password"
+            style="@style/PasswordLogin_Style" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_login"
+            android:id="@+id/button_login"
+            android:background="@drawable/custom_button" />
+    </LinearLayout>
+</RelativeLayout>

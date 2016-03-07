@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <!-- llamo al icono desde drawable -->
+    <item android:id="@+id/action_a"
+        android:title="@string/action_a"
+        android:icon="@mipmap/a"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText" />
+
+    <!-- llamo al icono desde mipmap -->
+    <item android:id="@+id/action_b"
+        android:title="@string/action_b"
+        android:icon="@mipmap/ic_b"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText" />
+
+
+
+</menu>

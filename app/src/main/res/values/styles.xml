@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="YepTheme" parent="AppTheme">
+
+
+
+
+    </style>
+
+    <!-- Estilo para No ActionBar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+
+
+    <!-- Estilos Extraidos de los componentes del Layout Login -->
+    <style name="Title_Login_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">45dp</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/color_hint</item>
+    </style>
+
+    <style name="Subtitle_Login_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/title_login</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/color_hint</item>
+    </style>
+
+    <style name="Label_Sign_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">34dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_below">@+id/linearLayout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/color_hint</item>
+    </style>
+
+    <style name="LinearLayout_Style">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/subtitle_login</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="UserField_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+    </style>
+
+    <style name="PasswordLogin_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+    </style>
+
+
+
+
+
+
+
+</resources>
